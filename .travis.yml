@@ -52,7 +52,7 @@ matrix:
         - NO_WATCH_TESTS=1
         - JEST="--maxWorkers=2 --cacheDirectory .jest-cache"
         - JOB_PART=integration
-      stage: advanced
+      stage: versions
   fast_finish: true
   allow_failures:
     - os: osx
